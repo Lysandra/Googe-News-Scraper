@@ -1,2 +1,4 @@
-# Googe-News-Scraper
-Web app using Mongoose and Cheerio to scrape news articles from Google News allowing users to view and leave comments on the latest news articles.
+# Web-Scraper
+Web app using Mongoose and Cheerio to scrape news articles from Food Network allowing users to view when the article was posted, the title, click link for additional information and also provides a description of the article.
+
+User can also create a note to save to the database regarding the article.

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scraping With Mongoose</title>
+    <style>
+      body { background-color: white }
+      #wrapper {
+        width: 100%;
+        margin-left: 25px;
+        margin-right: auto;
+        padding-top: 5%;
+      }
+      #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 50%;
+        height: 700px;
+      }
+      #notes {
+        float: right;
+        width: 25%;
+        margin-right: 25px;
+        margin-left: -10px;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: lightpink;
+        
+      }
+      input {
+        width: 101%;
+        height: 36px;
+        font-size: 24px;
+        border: 1px solid #e30029;
+        margin-bottom: 2px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+        border: 1px solid #e30029;
+      }
+      #logo {
+        height: 200px;
+        width: 200px;
+        float: left;
+      }
+      #desc {
+        color: #e30029;
+        text-align: left;
+      }
+      h3 {
+        text-align: center;
+        color: #e30029;
+      }
+      #new {
+        background-color: #e30029;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      #savenote {
+        background-color: #e30029;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      
+      <img id="logo" src="./img/FoodNetwork.png"><h1>What's New Scaper!</h1>
+      <h2 id="desc"><i>Scrape the website and add your notes on new items you want to try!</i></h2>
+      <div id="articles">
+          <button id="new" type="button">Scape What's New</button>
+        <hr>
+      </div>
+      <div id="notes"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
